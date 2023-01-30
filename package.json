@@ -1,0 +1,26 @@
+{
+  "name": "kylenicholson.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o docs/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleanicholson/kyleanicholson.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyleanicholson/kyleanicholson.github.io/issues"
+  },
+  "homepage": "https://github.com/kyleanicholson/kyleanicholson.github.io#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
