@@ -50,7 +50,7 @@ header {
   justify-content: space-between;
   background-color: $primary-blue;
   color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   width: 100%;
   height: 70px;
   position: fixed;
@@ -68,7 +68,7 @@ header {
   margin: 0 5px;
 }
 .navbar a:hover {
-  border-bottom: #28a745 2px solid;
+  border-bottom: $secondary-gold 2px solid;
 }
 
 .navbar ul {

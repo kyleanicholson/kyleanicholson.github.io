@@ -158,7 +158,7 @@ header {
   justify-content: space-between;
   background-color: #364f6b;
   color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   width: 100%;
   height: 70px;
   position: fixed;
@@ -175,7 +175,7 @@ header {
   margin: 0 5px; }
 
 .navbar a:hover {
-  border-bottom: #28a745 2px solid; }
+  border-bottom: #fdefbc 2px solid; }
 
 .navbar ul {
   display: flex; }
@@ -294,4 +294,6 @@ header {
     flex: 100%;
     min-width: 100%; }
   .team img {
-    width: 70%; } }
+    width: 70%; }
+  .hero .content h1 {
+    font-size: 2rem; } }
