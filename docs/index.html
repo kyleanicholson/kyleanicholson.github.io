@@ -51,10 +51,10 @@
     </header>
     <main>
       <!-- About: Solutions -->
-      <section id="about" class="section-padding">
+      <section id="about" class="section-padding bg-secondary">
         <header class="section-header">
           <h4>About</h4>
-          <h2>I enjoy solving challenging technical problems</h2>
+          <h2>I love solving challenging technical problems</h2>
           <p>
             I believe properly designed and implemented software can transform
             our work and our lives. My passion is writing sustainable code and
@@ -68,7 +68,7 @@
         </a> -->
       </section>
       <!-- Services -->
-      <section id="services" class="section-padding bg-secondary">
+      <section id="services" class="section-padding bg-">
         <header class="section-header text-tertiary">
           <!-- <h4>Services</h4>  Looks weird for some reason -->
         </header>
@@ -76,20 +76,22 @@
           <div>
             <i class="fas fa-code fa-3x"></i>
             <div>
-              <h3>Web design and development</h3>
+              <h3>Web Development</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-                iste.
+                I've been building websites since I was 10, and love to use the
+                latest technology to bring new ideas to life on the internet.
+                Let's work together to build something new and exciting!
               </p>
             </div>
           </div>
           <div>
             <i class="fas fa-computer-mouse fa-3x"></i>
             <div>
-              <h3>IT consulting</h3>
+              <h3>Software Testing</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-                iste.
+                With three years of experience as a quality assurance analyst at
+                a major technology company, I love testing and breaking things
+                in the name of developing better software.
               </p>
             </div>
           </div>
@@ -98,8 +100,45 @@
             <div>
               <h3>Process Automation</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
-                quia!
+                I'm passionate about desigining automation services that not
+                only save time and increase productivity, but also alleviate the
+                need for unnecessary manual work.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-items">
+          <div>
+            <i class="fas fa-chalkboard-teacher fa-3x"></i>
+            <div>
+              <h3>Training and Presentation</h3>
+              <p>
+                Teaching skills and helping others grow personally and
+                professionally is extremely rewarding for me. I'm at home giving
+                live demos and presentations to large groups.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-headset fa-3x"></i>
+            <div>
+              <h3>Technical Support</h3>
+              <p>
+                Customer service is a priority for me and I build relationships
+                with clients by providing excellent service and support as well
+                as respect and empathy for each individual's unique
+                perspectives.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-heart-pulse fa-3x"></i>
+            <div>
+              <h3>EMR Consulting</h3>
+              <p>
+                I've spent the majority of my career working in Healthcare IT
+                because I care deeply about the cause. I have significant
+                experience with Epic EHR in the outpatient clinical setting.
               </p>
             </div>
           </div>
@@ -120,7 +159,7 @@
           <div class="column">
             <div class="column-2 bg-light">
               <h2>Request Callback</h2>
-              <form action="" class="callback-form">
+              <form action="process.php" method="POST" class="callback-form">
                 <div class="form-control">
                   <label for="name"></label>
                   <input type="text" id="name" placeholder="Enter name" />
@@ -176,7 +215,7 @@
         }
       };
       // Smooth Scrolling
-      $("#navbar a, .btn").on("click", function (e) {
+      $("#navbar a").on("click", function (e) {
         if (this.hash !== "") {
           e.preventDefault();
 

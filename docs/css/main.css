@@ -8,6 +8,9 @@
 .text-tertiary {
   color: #ffff; }
 
+.text-center {
+  text-align: center; }
+
 /* Button */
 .btn {
   cursor: pointer;
@@ -22,11 +25,11 @@
   opacity: 0.9; }
 
 .btn-primary, .bg-primary {
-  background: #fce38a;
+  background: #364f6b;
   color: #fff; }
 
 .btn-secondary, .bg-secondary {
-  background: #47688d;
+  background: #fdefbc;
   color: #fff; }
 
 .btn-dark, .bg-dark {
@@ -119,6 +122,41 @@
   max-width: 25%;
   padding: 0 4px; }
 
+.py-1 {
+  padding: 1.5rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.p-1 {
+  padding: 1.5rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.p-3 {
+  padding: 3rem; }
+
+.text-center {
+  text-align: center; }
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1; }
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1; }
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem; }
+
 * {
   margin: 0;
   padding: 0;
@@ -143,7 +181,7 @@ img {
   width: 100%; }
 
 body {
-  background: #fdefbc;
+  background: #47688d;
   color: #ffff;
   font-family: "Montserrat", sans-serif;
   line-height: 1.6; }
