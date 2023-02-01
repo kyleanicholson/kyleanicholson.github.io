@@ -30,3 +30,9 @@
     font-size: 2rem;
   }
 }
+@media screen and (orientation:landscape) {
+  .hero .content h1{ 
+    font-size: 2rem;
+    padding-top: 100px;
+  }
+}
