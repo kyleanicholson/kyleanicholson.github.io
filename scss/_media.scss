@@ -15,7 +15,9 @@
   .flex-items {
     flex-direction: column;
   }
-
+  .flex-items > div {
+    max-width: 100%;
+  }
   .flex-columns .column,
   .flex-grid .column {
     flex: 100%;
@@ -28,11 +30,5 @@
 
   .hero .content h1{ 
     font-size: 2rem;
-  }
-}
-@media screen and (orientation:landscape) {
-  .hero .content h1{ 
-    font-size: 2rem;
-    padding-top: 100px;
   }
 }

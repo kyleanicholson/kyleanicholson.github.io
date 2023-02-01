@@ -52,7 +52,8 @@
   height: 100%; }
 
 .flex-items > div {
-  padding: 20px; }
+  padding: 30px;
+  max-width: 30%; }
 
 /* Flex columns */
 .flex-columns.flex-reverse .row {
@@ -175,7 +176,8 @@ h2 {
   line-height: 1.2; }
 
 p {
-  margin: 10px 0; }
+  margin: 10px 0;
+  font-size: 1.25rem; }
 
 img {
   width: 100%; }
@@ -239,7 +241,8 @@ header {
   padding: 0 20px; }
 
 .hero .content h1 {
-  font-size: 55px; }
+  padding-top: 100px;
+  font-size: 65px; }
 
 .hero .content p {
   font-size: 23px;
@@ -328,6 +331,8 @@ header {
     margin: 0 3px; }
   .flex-items {
     flex-direction: column; }
+  .flex-items > div {
+    max-width: 100%; }
   .flex-columns .column,
   .flex-grid .column {
     flex: 100%;
@@ -336,8 +341,3 @@ header {
     width: 70%; }
   .hero .content h1 {
     font-size: 2rem; } }
-
-@media screen and (orientation: landscape) {
-  .hero .content h1 {
-    font-size: 2rem;
-    padding-top: 100px; } }
