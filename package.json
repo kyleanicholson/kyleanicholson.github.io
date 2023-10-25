@@ -1,26 +1,15 @@
 {
-  "name": "kylenicholson.dev",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "name": "kyleanicholson-github-io",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "sass": "node-sass -w scss/ -o docs/css/ --recursive"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kyleanicholson/kyleanicholson.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kyleanicholson/kyleanicholson.github.io/issues"
-  },
-  "homepage": "https://github.com/kyleanicholson/kyleanicholson.github.io#readme",
   "dependencies": {
-    "node-sass": "^8.0.0"
+    "astro": "^3.3.4"
   }
 }
