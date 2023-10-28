@@ -4,6 +4,7 @@ title: "Reflecting on My Learn to Code Journey"
 pubDate: "2023-10-25"
 description: "A brief reflection on my journey learning to code."
 author: "Kyle Nicholson"
+draft: true
 tags: ["learning", "reflections"]
 ---
 
