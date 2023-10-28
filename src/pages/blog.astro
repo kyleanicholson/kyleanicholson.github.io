@@ -1,30 +1,21 @@
 ---
-
+import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogPost from "../components/BlogPost.astro"
+const allPosts = await Astro.glob("../pages/posts/*.md");
+const pageTitle = "Blog";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>kylenicholson.dev</title>
-  </head>
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
-    <h1>Blog</h1>
-    <p>
-      Where I share some thoughts and reflections about software development and
-      life.
-    </p>
-    <ul>
-      <li>
-        <a href ="/posts/post-1">Post 1</a>
-        <li><a href="/posts/post-2/">Post 2</a></li>
-        <li><a href="/posts/post-3/">Post 3</a></li>
-      </li>
-    </ul>
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <p>
+    Where I share some thoughts and reflections about software development and
+    life.
+  </p>
+  <ul>
+    {
+      allPosts.map((post) => (
+        <BlogPost url={post.url} title={post.frontmatter.title}/>
+      ))
+    }
+  </ul>
+</BaseLayout>

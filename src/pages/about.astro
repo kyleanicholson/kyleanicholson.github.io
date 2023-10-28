@@ -1,26 +1,40 @@
 ---
+import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
+const pageTitle = "About";
+const identity = {
+  firstName: "Kyle",
+  country: "United States",
+  occupation: "Healthcare IT Consultant",
+  hobbies: ["weight training", "running", "pc gaming"],
+};
+
+const skills = ["Python", "C++", "HTML", "CSS", "JavaScript", "React", "Astro"];
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>kylenicholson.dev</title>
-  </head>
-
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
-    <h1>About Me</h1>
-
-    <p>
-      I'm a python developer based in the Corvallis, Oregon. I'm currently
-      working on completing a Computer Science Degree at Oregon State
-      University. I'm also working on a few projects in my free time.
-    </p>
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <p>
+    I'm based in the Corvallis, Oregon where I'm currently working on completing
+    a post-bacc degree studying computer science. I'm also working on a few web
+    develpment projects in my free time.
+  </p>
+  <p>Here are a few facts about me:</p>
+  <ul>
+    <li>My name is {identity.firstName}.</li>
+    <li>
+      I live in {identity.country} and I work as a {identity.occupation}.
+    </li>
+    {
+      identity.hobbies.length >= 2 && (
+        <li>
+          Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}
+        </li>
+      )
+    }
+  </ul>
+  <p>My skills are:</p>
+  <ul>
+    {skills.map((skill) => <li class="skill">{skill}</li>)}
+  </ul>
+</BaseLayout>
