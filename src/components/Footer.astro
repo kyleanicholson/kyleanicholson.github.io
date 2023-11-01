@@ -4,19 +4,49 @@ const username = "kyleanicholson";
 import Social from './Social.astro'
 ---
 <style>
-  footer {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
+    footer {
+
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    footer a {
+        color: #ff9776;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+        footer {
+            flex-direction: column;
+        }
+
+        footer a {
+            display: block;
+        }
+
+        footer p {
+            margin-bottom: 1rem;
+        }
+    }
 </style>
 <footer>
-  <p>
-    Learn more about my projects on <a
-      href={`https://www.${platform}.com/${username}`}>{platform}</a
-    >!
-  </p>
-  <Social platform = "twitter" username = "kyleanicholson2"/>
-  <Social platform = "github" username = "kyleanicholson"/>
-  <Social platform = "linkedin" username = "in/kyle-nicholson-28a48140"/>
- </footer>
+    <p>
+        Learn more about my projects on <a
+            href={`https://www.${platform}.com/${username}`}>{platform}</a
+    >
+    </p>
+
+    <Social platform="twitter" username="kyleanicholson2"/>
+    <Social platform="github" username="kyleanicholson"/>
+    <Social platform="linkedin" username="in/kyle-nicholson-28a48140"/>
+
+
+</footer>
