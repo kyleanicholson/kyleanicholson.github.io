@@ -1,7 +1,12 @@
 ---
 const {url,title} = Astro.props
 ---
+<style>
+    li {
+        margin-bottom: 1.5rem;
+    }
 
+</style>
 <li>
-    <a href={url}>{title}</a>
+    <a class="blog-post-link" href={url}>{title}</a>
 </li>

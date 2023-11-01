@@ -5,13 +5,20 @@ import BlogPost from "../components/BlogPost.astro"
 const allPosts = await Astro.glob("../pages/posts/*.md");
 const pageTitle = "Blog";
 ---
+<style>
+    #blog-posts {
+        list-style: none;
+        padding: 0.5rem;
 
+    }
+
+</style>
 <BaseLayout pageTitle={pageTitle}>
   <p>
     Where I share some thoughts and reflections about software development and
     life.
   </p>
-  <ul>
+  <ul id="blog-posts">
     {
       allPosts.map((post) => (
         <BlogPost url={post.url} title={post.frontmatter.title}/>
