@@ -1,7 +1,9 @@
+
 html {
     background-color: #f1f5f9;
     font-family: sans-serif;
 }
+
 html.dark {
     background-color: #0d0950;
     color: #fff;
@@ -10,6 +12,7 @@ html.dark {
 .dark .nav-links a {
     color: #fff;
 }
+
 body {
     margin: 0 auto;
     width: 100%;
@@ -70,6 +73,21 @@ h1 {
     display: unset;
 }
 
+/*Blog Article List Styling*/
+
+.blog-post-link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 1rem 0;
+}
+
+.dark .blog-post-link {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
 @media screen and (min-width: 636px) {
     .nav-links {
         margin-left: 5em;
@@ -83,6 +101,7 @@ h1 {
         display: inline-block;
         padding: 15px 20px;
     }
+
     .hamburger {
         display: none;
     }
