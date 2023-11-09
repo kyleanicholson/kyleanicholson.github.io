@@ -2,11 +2,17 @@
 html {
     background-color: #f1f5f9;
     font-family: sans-serif;
+    color: #1F1300;
 }
 
 html.dark {
     background-color: #0d0950;
     color: #fff;
+}
+
+a {
+    color: #ff9776;
+    text-decoration: none;
 }
 
 .dark .nav-links a {
@@ -59,6 +65,7 @@ h1 {
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
+    color: #0d0950;
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -73,20 +80,6 @@ h1 {
     display: unset;
 }
 
-/*Blog Article List Styling*/
-
-.blog-post-link {
-    display: block;
-    text-decoration: none;
-    color: #000;
-    border-bottom: 1px solid #000;
-    padding: 1rem 0;
-}
-
-.dark .blog-post-link {
-    color: #fff;
-    border-bottom: 1px solid #fff;
-}
 
 @media screen and (min-width: 636px) {
     .nav-links {
