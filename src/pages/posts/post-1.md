@@ -25,7 +25,7 @@ required a lot of math, which was never my strongest subject in school. However,
 friend
 did not have a math background, and he had learned to code on the job without any prior knowledge.
 
-I started by learning the fundamentals of HTML and css. I built a couple of simple websites that worked, although they
+I started by learning the fundamentals of HTML and CSS. I built a couple of simple websites that worked, although they
 did not look great. I enjoyed the process of learning and had fun fixing bugs and making things work. Unfortunately, I
 was starting to run out of money, so I decided to look for a job. I ultimately wound up finding a position as a
 software tester at a medical technology company. The job didn't involve any coding, but with paid relocation and a
