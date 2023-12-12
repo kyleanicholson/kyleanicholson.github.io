@@ -15,9 +15,9 @@ const skills = ["Python", "C++", "HTML", "CSS", "JavaScript", "React", "Astro"];
 
 <BaseLayout pageTitle={pageTitle}>
   <p>
-    I'm based in Corvallis, Oregon where I'm currently completing
-    a post-bacc degree studying computer science. I'm also working on a few web
-    development projects in my free time.
+    I'm based in Corvallis, Oregon where I'm currently completing a post-bacc
+    degree studying computer science. I'm also working on a few web development
+    projects in my free time.
   </p>
   <p>Here are a few facts about me:</p>
   <ul>
@@ -28,12 +28,12 @@ const skills = ["Python", "C++", "HTML", "CSS", "JavaScript", "React", "Astro"];
     {
       identity.hobbies.length >= 2 && (
         <li>
-          Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}
+          I enjoy: {identity.hobbies[0]} and {identity.hobbies[1]}
         </li>
       )
     }
   </ul>
-  <p>My skills are:</p>
+  <p>Skills:</p>
   <ul>
     {skills.map((skill) => <li class="skill">{skill}</li>)}
   </ul>
