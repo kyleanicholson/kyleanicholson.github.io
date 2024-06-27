@@ -4,10 +4,10 @@ title: "Learning to Code in 10+ Years"
 pubDate: "2023-11-09"
 description: "A reflection on my journey learning to code."
 author: "Kyle Nicholson"
-tags: [ "learning", "reflections" ]
+tags: ["learning"]
 image:
-  url: 'src/images/computer-w-code.jpg'
-  alt: 'learning to code'
+  url: "src/images/computer-w-code.jpg"
+  alt: "learning to code"
 ---
 
 ## The Beginning
@@ -177,5 +177,3 @@ Here are some of the beginner python resources I used and would recommend:
 - [FreeCodeCamp Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
 
 Thanks for stopping by, and I hope you'll come back soon!
-
-
