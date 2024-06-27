@@ -2,12 +2,11 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: What I learned from CS 161 Computer Science 1
 author: Kyle Nicholson
-description: "After learning some Astro, I couldn't stop!"
+description: Course Review of CS 161 C++
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png"
   alt: "C++ Logo"
 pubDate: 2024-06-24
-draft: true
 tags: ["learning", "programming", "beginner", "C++"]
 ---
 
@@ -51,4 +50,4 @@ I did not think the course was very challenging, but I mostly attribute that to 
 
 If you are brand new to programming, my advice would be to avoid the C++ version of this course and instead choose Python or maybe C# depending on what's available. I would only recommend the C++ version if you have some experience with another language, are curious about C++ and want to dive a bit deeper into a low-level language.
 
-## Final Grade: A
+### My Final Grade: A
