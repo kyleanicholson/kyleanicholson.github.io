@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: What I learned from CS 161 Computer Science 1
+title: Course Review of CS 161 (Computer Science 1)
 author: Kyle Nicholson
-description: Course Review of CS 161 C++
+description: CS Course Review CS161 C++
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png"
   alt: "C++ Logo"
