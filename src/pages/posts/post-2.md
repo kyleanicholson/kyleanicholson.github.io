@@ -4,14 +4,10 @@ title: Five Years as a Remote IT Worker
 author: Kyle Nicholson
 description: Five years ago, I started working remotely. Here are some of the things I've learned.
 image:
-  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png"
-  alt: "C++ Logo"
-pubDate: 2024-06-24
-  url: 'src/images/remote-working.jpg'
-  alt: 'working from home'
+  url: "src/images/remote-working.jpg"
+  alt: "working from home"
 pubDate: 2023-12-14
 draft: true
-tags: ["learning", "programming", "beginner", "C++"]
 tags: ["reflections"]
 ---
 
